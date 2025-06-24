@@ -1,7 +1,5 @@
 // index.js
-const { Client, MessageMedia } = require("whatsapp-web.js");
-const mime = require("mime-types");
-const path = require("path");
+const { Client } = require("whatsapp-web.js");
 const qrcode = require("qrcode-terminal");
 
 // Cria cliente do WhatsApp
